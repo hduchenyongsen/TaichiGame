@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/TaichiGame">
+        <file>Resources/paraLengthTable.txt</file>
+        <file>Resources/standardData.txt</file>
+        <file>Resources/humanDetection.png</file>
+        <file>Resources/backGround.jpg</file>
+        <file>Resources/round_slider.png</file>
+        <file>Resources/page_slider.png</file>
+        <file>Resources/xiakuang.png</file>
+        <file>Resources/rhythmHint_artwords.png</file>
+        <file>Resources/sliderArtword.png</file>
+        <file>Resources/currentScoreArtword.png</file>
+        <file>Resources/progBarBorder.png</file>
+        <file>Resources/practiceMode_red.png</file>
+        <file>Resources/practiceMode_gray.png</file>
+        <file>Resources/challengeMode_red.png</file>
+        <file>Resources/challengeMode_gray.png</file>
+        <file>Resources/anniuSound.wma</file>
+        <file>Resources/progBarChunk.png</file>
+        <file>Resources/playBackIn.png</file>
+        <file>Resources/playBackOut.png</file>
+        <file>Resources/returnBackIn.png</file>
+        <file>Resources/returnBackOut.png</file>
+        <file>Resources/kaishitishi.png</file>
+        <file>Resources/standInTheBodyLine.png</file>
+        <file>Resources/stayStaticly.png</file>
+        <file>Resources/waveToSelect.png</file>
+        <file>Resources/playbackOrReturn.png</file>
+        <file>Resources/normalMask.png</file>
+        <file>Resources/leftFourOfWords.png</file>
+        <file>Resources/rightFourOfWords.png</file>
+        <file>Resources/historyListOfWords.png</file>
+        <file>Resources/shangkuang.png</file>
+        <file>Resources/stackWidgetMask.png</file>
+        <file>Resources/practiceModeSelected.png</file>
+        <file>Resources/challengeModeSelected.png</file>
+        <file>Resources/playBackSelected.png</file>
+        <file>Resources/returnBackSelected.png</file>
+        <file>Resources/currentScore.png</file>
+        <file>Resources/rec.png</file>
+        <file>Resources/weight.txt</file>
+        <file>Resources/RegistedFlag.txt</file>
+        <file>Resources/rhythmSlider.qss</file>
+        <file>Resources/currentScoreProgBar.qss</file>
+        <file>Resources/historyScoreview.qss</file>
+    </qresource>
+</RCC>

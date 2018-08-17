@@ -1,0 +1,60 @@
+﻿生成启动时间为 2018/4/13 20:40:43。
+     1>项目“C:\Users\admin\Documents\Visual Studio 2013\Projects\TaichiGame\TaichiGame\TaichiGame.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Uic'ing taichigame.ui...
+         Moc'ing labelwithborder.h...
+         Moc'ing evaluatethread.h...
+         Moc'ing taichigame.h...
+         Rcc'ing taichigame.qrc...
+         Moc'ing playbackrecordthread.h...
+         Moc'ing registerwidget.h...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of moc_evaluatethread.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_evaluatethread.cpp, GeneratedFiles\Release\moc_evaluatethread.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of moc_labelwithborder.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_labelwithborder.cpp, GeneratedFiles\Release\moc_labelwithborder.cpp.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.2\5.6\msvc2013\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\QtCore /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\QtGui /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\QtWidgets /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\QtMultimedia /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\QtMultimediaWidgets /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\inc" /I"C:\Program Files (x86)\opencv\build\include" /I"C:\Program Files (x86)\opencv\build\include\opencv" /I"C:\Program Files (x86)\opencv\build\include\opencv2" /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\QtSql /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D _X86_ /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt database.cpp evaluatethread.cpp GeneratedFiles\Debug\moc_evaluatethread.cpp GeneratedFiles\Debug\moc_labelwithborder.cpp GeneratedFiles\Release\moc_evaluatethread.cpp GeneratedFiles\Release\moc_labelwithborder.cpp GeneratedFiles\Release\moc_playbackrecordthread.cpp GeneratedFiles\Release\moc_registerwidget.cpp GeneratedFiles\Release\moc_taichigame.cpp gesturedetection.cpp labelwithborder.cpp main.cpp playbackrecordthread.cpp registerwidget.cpp taichigame.cpp
+         database.cpp
+         evaluatethread.cpp
+         moc_evaluatethread.cpp
+         moc_labelwithborder.cpp
+         moc_evaluatethread.cpp
+         moc_labelwithborder.cpp
+         moc_playbackrecordthread.cpp
+         moc_registerwidget.cpp
+         moc_taichigame.cpp
+         gesturedetection.cpp
+         labelwithborder.cpp
+         main.cpp
+         playbackrecordthread.cpp
+         registerwidget.cpp
+         taichigame.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.6.2\5.6\msvc2013\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\QtCore /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\QtGui /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\QtWidgets /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\QtMultimedia /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\QtMultimediaWidgets /I"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\inc" /I"C:\Program Files (x86)\opencv\build\include" /I"C:\Program Files (x86)\opencv\build\include\opencv" /I"C:\Program Files (x86)\opencv\build\include\opencv2" /IC:\Qt\Qt5.6.2\5.6\msvc2013\include\QtSql /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D _X86_ /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_taichigame.cpp
+         qrc_taichigame.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\TaichiGame.res" TaichiGame.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\Documents\Visual Studio 2013\Projects\TaichiGame\Win32\Release\\TaichiGame.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.6.2\5.6\msvc2013\lib /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Lib\x86" /LIBPATH:"C:\Program Files (x86)\opencv\build\x86\vc12\lib" qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib Qt5Multimedia.lib Qt5MultimediaWidgets.lib Qt5Sql.lib Kinect20.lib opencv_core2412.lib opencv_imgproc2412.lib opencv_highgui2412.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\admin\Documents\Visual Studio 2013\Projects\TaichiGame\Win32\Release\TaichiGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\Documents\Visual Studio 2013\Projects\TaichiGame\Win32\Release\TaichiGame.lib" /MACHINE:X86 /SAFESEH Release\TaichiGame.res
+         Release\database.obj
+         Release\evaluatethread.obj
+         Release\moc_evaluatethread.obj
+         Release\moc_labelwithborder.obj
+         Release\qrc_taichigame.obj
+         Release\moc_evaluatethread.obj
+         Release\moc_labelwithborder.obj
+         Release\moc_playbackrecordthread.obj
+         Release\moc_registerwidget.obj
+         Release\moc_taichigame.obj
+         Release\gesturedetection.obj
+         Release\labelwithborder.obj
+         Release\main.obj
+         Release\playbackrecordthread.obj
+         Release\registerwidget.obj
+         Release\taichigame.obj
+     1>Release\moc_evaluatethread.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_labelwithborder.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+         TaichiGame.vcxproj -> C:\Users\admin\Documents\Visual Studio 2013\Projects\TaichiGame\Win32\Release\TaichiGame.exe
+     1>已完成生成项目“C:\Users\admin\Documents\Visual Studio 2013\Projects\TaichiGame\TaichiGame\TaichiGame.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:20.51

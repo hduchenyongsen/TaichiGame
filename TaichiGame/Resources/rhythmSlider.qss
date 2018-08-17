@@ -1,0 +1,29 @@
+QSlider
+{
+	background-color: rgba(0,0,0,0);
+	height: 60px;
+	width: 400px;
+}
+QSlider::add-page:horizontal
+{
+	background-color: rgba(0,0,0,0);
+	height:30px;
+}
+QSlider::sub-page:horizontal
+{
+	background-image: url(:/TaichiGame/Resources/page_slider.png);
+	height:30px;
+}
+QSlider::groove:horizontal
+{
+	background-image:url(:/TaichiGame/Resources/page_slider.png);
+	height:30px;
+	width: 400px;
+}
+QSlider::handle:horizontal 
+{
+	height: 60px;
+	width: 60px;
+	border-image: url(:/TaichiGame/Resources/round_slider.png);
+	margin: -15px -4px;
+}

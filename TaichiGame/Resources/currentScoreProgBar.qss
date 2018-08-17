@@ -1,0 +1,12 @@
+QProgressBar
+{
+	background-color: rgba(0,0,0,0);
+	height: 30px;
+	width: 400px;
+	border-image:url(:/TaichiGame/Resources/progBarBorder.png);
+}
+QProgressBar::chunk
+{
+	background-image:url(:/TaichiGame/Resources/progBarChunk.png);
+	border:none;
+}

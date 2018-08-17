@@ -1,0 +1,24 @@
+﻿生成启动时间为 2018/8/6 星期一 9:22:39。
+     1>项目“E:\太极项目\TaichiGame\TaichiGame\TaichiGame.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles\Debug /I.\GeneratedFiles /I. /ID:\Qt5.9.2\5.9.2\msvc2013_64\include /ID:\Qt5.9.2\5.9.2\msvc2013_64\include\QtCore /ID:\Qt5.9.2\5.9.2\msvc2013_64\include\QtMultimedia /ID:\Qt5.9.2\5.9.2\msvc2013_64\include\QtOpenGL /ID:\Qt5.9.2\5.9.2\msvc2013_64\include\QtOpenGLExtensions /ID:\Qt5.9.2\5.9.2\msvc2013_64\include\QtSql /ID:\Qt5.9.2\5.9.2\msvc2013_64\include\QtWidgets /ID:\Qt5.9.2\5.9.2\msvc2013_64\include\QtGui /ID:\Qt5.9.2\5.9.2\msvc2013_64\include\QtANGLE /ID:\Qt5.9.2\5.9.2\msvc2013_64\include\QtMultimediaWidgets /ID:\Qt5.9.2\5.9.2\msvc2013_64\include\QtQuickWidgets /ID:\Qt5.9.2\5.9.2\msvc2013_64\include\QtUiTools /Zi /nologo /W1 /WX- /MP /Od /D UNICODE /D WIN32 /D WIN64 /D QT_CORE_LIB /D QT_MULTIMEDIA_LIB /D QT_OPENGL_LIB /D QT_OPENGLEXTENSIONS_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_QUICKWIDGETS_LIB /D QT_UITOOLS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt evaluatethread.cpp playbackrecordthread.cpp .\GeneratedFiles\Debug\moc_playbackrecordthread.cpp .\GeneratedFiles\qrc_taichigame.cpp
+         evaluatethread.cpp
+         playbackrecordthread.cpp
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: “__useHeader”: 宏重定义 (playbackrecordthread.cpp)
+                 D:\vs2013\VC\include\sal.h(2886) : 参见“__useHeader”的前一个定义
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: “__on_failure”: 宏重定义 (playbackrecordthread.cpp)
+                 D:\vs2013\VC\include\sal.h(2896) : 参见“__on_failure”的前一个定义
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\winnt.h(135): fatal error C1189: #error :  "No Target Architecture" (playbackrecordthread.cpp)
+         moc_playbackrecordthread.cpp
+     1>evaluatethread.cpp(38): error C2440: “初始化”: 无法从“initializer-list”转换为“QList<int>” (evaluatethread.cpp)
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>evaluatethread.cpp(39): error C2440: “初始化”: 无法从“initializer-list”转换为“QList<int>” (evaluatethread.cpp)
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+         qrc_taichigame.cpp
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: “__useHeader”: 宏重定义 (.\GeneratedFiles\Debug\moc_playbackrecordthread.cpp)
+                 D:\vs2013\VC\include\sal.h(2886) : 参见“__useHeader”的前一个定义
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: “__on_failure”: 宏重定义 (.\GeneratedFiles\Debug\moc_playbackrecordthread.cpp)
+                 D:\vs2013\VC\include\sal.h(2896) : 参见“__on_failure”的前一个定义
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\winnt.h(135): fatal error C1189: #error :  "No Target Architecture" (.\GeneratedFiles\Debug\moc_playbackrecordthread.cpp)
+     1>.\GeneratedFiles\qrc_taichigame.cpp(518316): fatal error C1060: 编译器的堆空间不足 (.\GeneratedFiles\qrc_taichigame.cpp)
+     0>MSBUILD : error MSB4166: 子节点“2”过早退出。正在关闭。可以在临时文件目录中名为 MSBuild_*.failure.txt 的文件中找到诊断信息。
